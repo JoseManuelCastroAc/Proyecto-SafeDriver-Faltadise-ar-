@@ -1,0 +1,109 @@
+# ==========================================
+# 1. ARCHIVOS GLOBALES Y DE SISTEMA
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.out
+*.log
+
+# Carpetas de editores/IDEs comunes
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ==========================================
+# 2. CONFIGURACIÓN PARA EL BACKEND (Python/FastAPI)
+# ==========================================
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/.Python
+backend/build/
+backend/develop-eggs/
+backend/dist/
+backend/downloads/
+backend/eggs/
+backend/.eggs/
+backend/lib/
+backend/lib64/
+backend/parts/
+backend/sdist/
+backend/var/
+backend/wheels/
+backend/pip-wheel-metadata/
+backend/share/python-wheels/
+backend/.blueprint
+backend/.manifest
+backend/.spec
+backend/pip-log.txt
+backend/pip-delete-this-directory.txt
+
+# Entornos virtuales (vof, venv, .venv, env)
+backend/env/
+backend/venv/
+backend/.venv/
+backend/ENV/
+backend/env.bak/
+backend/venv.bak/
+
+# Variables de entorno (¡Crucial no subirlas!)
+backend/.env
+backend/.env.*
+backend/secrets.json
+
+# Base de datos local (si usas SQLite para pruebas)
+backend/*.db
+backend/*.sqlite3
+
+# ==========================================
+# 3. CONFIGURACIÓN PARA MOBILE (Flutter/Dart)
+# ==========================================
+# Archivos de Flutter y Dart
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.packages
+mobile/.pub-cache/
+mobile/.pub/
+mobile/build/
+
+# Android específicos
+mobile/android/local.properties
+mobile/android/GeneratedPluginRegistrant.java
+mobile/android/.gradle/
+mobile/android/app/protobuf/
+mobile/android/app/build/
+mobile/android/app/src/main/res/generated/
+mobile/android/captures/
+mobile/*.apk
+mobile/*.aab
+
+# iOS específicos
+mobile/ios/.generated/
+mobile/ios/Flutter/Generated.xcconfig
+mobile/ios/Flutter/flutter_export_environment.sh
+mobile/ios/Flutter/App.framework
+mobile/ios/Flutter/Flutter.framework
+mobile/ios/Flutter/Flutter.podspec
+mobile/ios/DerivedData/
+mobile/ios/.symlinks/
+mobile/ios/Pods/
+mobile/ios/.xcworkspace/
+mobile/ios/config/keys.json
+
+# Web específicos
+mobile/web/flutter_service_worker.js
+
+# Cobertura de pruebas
+mobile/coverage/
